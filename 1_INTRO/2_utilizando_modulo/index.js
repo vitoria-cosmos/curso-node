@@ -18,4 +18,4 @@ fs.readFile("arquivo.txt", "utf8", (err, data) => {
 });
 // primeiro parametro é o caminho para o arquivo
 // o outro parametro é o incode do arquivo
-// o otro parametro é uma função anonime em que posso receber um erro ou os dados
+// o outro parametro é uma função anonime em que posso receber um erro ou os dados

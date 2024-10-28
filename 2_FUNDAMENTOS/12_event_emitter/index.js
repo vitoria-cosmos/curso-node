@@ -1,8 +1,8 @@
 
-// vamos chamar o modulo EventEmmiter
+// vamos chamar o modulo EventEmitter
 const EventEmitter = require('events')
 
-// variavel com e minusculo(covencao) vai instanciar a classe
+// variavel com o "e" minusculo(covencao) vai instanciar a classe
 const eventEmitter = new EventEmitter()
 
 // Define o evento
