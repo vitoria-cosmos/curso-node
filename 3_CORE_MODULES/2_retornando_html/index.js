@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
 
     // texto que vai poder receber tags de html
     // nosso server agora pode enviar html que vai ser interpretado pelo client
-    res.end('<h1>Olá, este é meu primeiro server com HTML!</h1>')
+    res.end('<h1>Olá, este é meu primeiro server com HTML! TESTE</h1><p>Testando atualização!</p>')
 })
 
 server.listen(port, () => {
