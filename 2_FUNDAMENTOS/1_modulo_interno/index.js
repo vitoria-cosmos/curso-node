@@ -9,14 +9,25 @@
 // soma(2, 3)
 // soma(5, 10)
 
-const modulo = require('./meu_modulo')
+// const modulo = require('./meu_modulo')
 
-const imprimi = modulo.imprimi;
-const multiplica = modulo.multiplica;
-const tabuada = modulo.tabuada;
+// const imprimi = modulo.imprimi;
+// const multiplica = modulo.multiplica;
+// const tabuada = modulo.tabuada;
 
-imprimi('Hello, World!');
-multiplica(2, 2);
-tabuada(5);
+// imprimi('Hello, World!');
+// multiplica(2, 2);
+// tabuada(5);
+
+// REVISÃO
+
+const meuModulo = require('./meu_modulo')
+
+const soma = meuModulo.soma
+
+soma(5, 10)
+soma(2, 3)
+
+meuModulo.soma(10, 10)
 
 
